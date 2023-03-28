@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+@author: Lin, Wei-Zhi
+v0.1 created at Mar 28 2023.
+use to find the string at where it should be value.
+"""
+#%% find str in df
+def findstr (df, string: str):
+    mask = df.isin([str(string)])
+    filtered_df = df[mask.any(axis=1)]
+    return filtered_df
