@@ -1,3 +1,9 @@
+"""
+Author: Lin, Wei-Zhi
+Created: 2024-11-19
+Last Updated: 
+"""
+# import pkgs
 from math import ceil
 from statsmodels.stats.power import NormalIndPower
 
