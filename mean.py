@@ -3,7 +3,7 @@
 @author: Lin, Wei-Zhi
 v0.1 created at Mar 29 2023.
 use to calculate mean value.
-use when there are 3 datafames
+use when there are 3 df
 """
 def mean(df1, df2, df3, index: list):
     import pandas as pd
